@@ -1,0 +1,11 @@
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.deps.json
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.dll
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.pdb
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfo.cs
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.dll
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\refint\StringLibrary.dll
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.pdb
+C:\Centennial\Sem 6\COMP367 - DevOps Implementation\comp367-Truong-lab4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\ref\StringLibrary.dll
