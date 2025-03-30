@@ -49,10 +49,10 @@ steps:
   displayName: 'NuGet Authenticate'
 
 # Push the package to Azure Artifacts
-- task: NuGetCommand@2
+- task: DotNetCoreCLI@2
   displayName: 'Push NuGet package to Azure Artifacts'
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
     publishVstsFeed: 'StringLibrary/StringLibraryFeed'
-    allowPackageConflicts: true
