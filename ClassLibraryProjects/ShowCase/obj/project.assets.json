@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
-      "projectName": "TanyaTruong.StringLibrary",
-      "projectPath": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+      "projectUniqueName": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\TMT\\.nuget\\packages\\",
-      "outputPath": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\StringLibrary\\obj\\",
+      "outputPath": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
