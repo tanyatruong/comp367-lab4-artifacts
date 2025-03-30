@@ -1,0 +1,58 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  Major: '1'
+  Minor: '0'
+  Patch: '0'
+  PackageVersion: '$(Major).$(Minor).$(Patch)'
+
+steps:
+# Use NuGet
+- task: NuGetToolInstaller@1
+  displayName: 'Install NuGet tools'
+
+# Restore NuGet packages
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet packages'
+  inputs:
+    command: 'restore'
+    projects: '$(solution)'
+    feedsToUse: 'select'
+
+# Build the solution
+- task: DotNetCoreCLI@2
+  displayName: 'Build the project'
+  inputs:
+    command: 'build'
+    projects: '$(solution)'
+    arguments: '--configuration $(buildConfiguration)'
+
+# Pack the NuGet package
+- task: DotNetCoreCLI@2
+  displayName: 'Pack NuGet package'
+  inputs:
+    command: 'pack'
+    packagesToPack: '**/StringLibrary.csproj'
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'PackageVersion'
+    configuration: '$(buildConfiguration)'
+
+# Authenticate with Azure Artifacts
+- task: NuGetAuthenticate@1
+  displayName: 'NuGet Authenticate'
+
+# Push the package to Azure Artifacts
+- task: NuGetCommand@2
+  displayName: 'Push NuGet package to Azure Artifacts'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    publishVstsFeed: 'StringLibrary/StringLibraryFeed'
+    allowPackageConflicts: true
