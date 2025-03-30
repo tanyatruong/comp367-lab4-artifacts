@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+STKUxMo1q0=",
+  "dgSpecHash": "9EXJ5jujpxE=",
   "success": true,
   "projectFilePath": "C:\\Centennial\\Sem 6\\COMP367 - DevOps Implementation\\comp367-lab4-artifacts\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TMT\\.nuget\\packages\\tanyatruong.stringlibrary\\1.0.0\\tanyatruong.stringlibrary.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
