@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: Lab4AgentPool
 
 variables:
   solution: '**/*.sln'
