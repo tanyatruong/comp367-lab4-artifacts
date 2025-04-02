@@ -10,7 +10,7 @@ variables:
   buildConfiguration: 'Release'
   Major: '1'
   Minor: '0'
-  Patch: '0'
+  Patch: '1'
   PackageVersion: '$(Major).$(Minor).$(Patch)'
 
 steps:
@@ -53,7 +53,7 @@ steps:
   displayName: 'Push NuGet package to Azure Artifacts'
   inputs:
     command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
     nuGetFeedType: 'internal'
     publishVstsFeed: 'StringLibrary/StringLibraryFeed'
     arguments: '--skip-duplicate'
